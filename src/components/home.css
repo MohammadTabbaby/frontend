@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg, #1a2f3f, #7094ce);
+}
+
+.container .card img {
+    position: absolute;
+    bottom: 0;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.container .card:hover img {
+    left: 73%;
+    height: 350px;
+}
+
+.container .card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container .card:hover .content {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.container .card .content h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    line-height: 2em;
+}
+
+.container .card .content p {
+    color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background: #fff;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    font-weight: 600;
+    color: #105245;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #fff;
+    border: 2px solid #136253;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #167361;
+    border-radius: inherit;
+
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more:hover {
+    background: #569e90;
+    color: #fff;
+    transform: translate(0, 1em);
+}
+
+button.learn-more:hover::before {
+
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+button.learn-more:active {
+    background: #ffe9e9;
+    transform: translate(0em, 0.75em);
+}
+
+button.learn-more:active::before {
+
+    transform: translate3d(0, 0, -1em);
+}
+
+@media(max-width:991px) {
+    .container .card {
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+
+    .container .card:hover {
+        height: 600px;
+    }
+
+    .container .card:hover img {
+        left: 50%;
+        height: 350px;
+    }
+
+    .container .card .content {
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .card {
+        margin: 40px 20px;
+    }
+}
+
+@media(max-width:420px) {
+    .container .card .content {
+        padding: 30px;
+    }
+
+    .container .card:hover img {
+        height: 300px;
+    }
+}
