@@ -1,5 +1,5 @@
 import React from 'react'
-import './icons.css'
+//import './icons.css'
 function Icons() {
     return (
         <div><section className="icons-container">

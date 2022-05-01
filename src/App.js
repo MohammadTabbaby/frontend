@@ -1,4 +1,3 @@
-import './App.css'
 import Header from './components/Header'
 import Home from './components/Home'
 import Icons from './components/Icons'
@@ -7,6 +6,7 @@ import Facility from './components/Facility'
 import Booking from './components/Book'
 import About from './components/About'
 import Footer from './components/Footer'
+import './App.css'
 
 
 function App() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './facility.css'
+//import './facility.css'
 import facility1 from '../../src/assets/blog-1.jpg';
 import facility2 from '../../src/assets/blog-2.jpg';
 import facility3 from '../../src/assets/blog-3.jpg';

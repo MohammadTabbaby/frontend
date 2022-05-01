@@ -1,5 +1,5 @@
 import React from 'react'
-import './doctors.css'
+//import './doctors.css'
 import doc1 from '../../src/assets/doc-1.jpg';
 import doc2 from '../../src/assets/doc-2.jpg';
 import doc3 from '../../src/assets/doc-3.jpg';

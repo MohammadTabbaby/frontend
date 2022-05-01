@@ -1,5 +1,5 @@
 import React from 'react'
-import './reviews.css'
+//import './reviews.css'
 import pic1  from '../../src/assets/pic-1.png';
 import pic2  from '../../src/assets/pic-2.png';
 import pic3  from '../../src/assets/pic-3.png';
