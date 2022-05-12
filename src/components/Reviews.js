@@ -8,7 +8,7 @@ function Reviews() {
     return (
         <div><section className="review" id="review">
 
-            <h1 className="heading"> client's <span>review</span> </h1>
+            <h1 className="heading"> Nos <span>indicateurs</span> </h1>
 
             <div className="box-container">
 

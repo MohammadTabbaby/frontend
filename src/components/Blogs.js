@@ -1,5 +1,5 @@
 import React from 'react'
-//import './Blogs.css'
+import './Blogs.css'
 import blog1 from '../../src/assets/blog-1.jpg';
 import blog2 from '../../src/assets/blog-2.jpg';
 import blog3 from '../../src/assets/blog-3.jpg';
@@ -8,52 +8,52 @@ function Blogs() {
     return (
         <div><section className="blogs" id="blogs">
 
-            <h1 className="heading"> our <span>blogs</span> </h1>
+            <h1 className="heading">  <span> Actualités</span> </h1>
 
             <div className="box-container">
 
                 <div className="box">
                     <div className="image">
-                        <img src={blog1} alt="" />
+                    <img src='https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/279885959_372313594939109_7552198683786925442_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8bfeb9&_nc_ohc=59X6hSPKgyEAX_BV_GE&_nc_ht=scontent.ftun15-1.fna&oh=00_AT8vnvaqqWeTb-vIzFuBDN_4BquGpuklz6p_tWuyUIt5_g&oe=6282DC44' alt="" />
                     </div>
                     <div className="content">
-                        <div className="icon">
-                            <a href="#"> <i className="fas fa-calendar"></i> 1st may, 2021 </a>
-                            <a href="#"> <i className="fas fa-user"></i> by admin </a>
+                        <div className="icon">  
+                            <a href="#"> <i className="fas fa-calendar"></i> 25 avril, 2021 </a>
+                            <a href="#"> <i className="fas fa-user"></i> par l'admin</a>
                         </div>
-                        <h3>blog title goes here</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
-                        <a href="#" className="btn"> learn more <span className="fas fa-chevron-right"></span> </a>
+                        <h3>Ministère de la santé </h3>
+                        <p style={{fontSize: "15px"}}> Une séance de travail consacrée au suivi du projet d'industrie du vaccin en Tunisie</p>
+                        <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
 
                 <div className="box">
                     <div className="image">
-                        <img src={blog2} alt="" />
+                        <img src='data:image/png;base64,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' alt="" />
                     </div>
                     <div className="content">
                         <div className="icon">
-                            <a href="#"> <i className="fas fa-calendar"></i> 1st may, 2021 </a>
-                            <a href="#"> <i className="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i className="fas fa-calendar"></i> 2 mai, 2021 </a>
+                            <a href="#"> <i className="fas fa-user"></i> par l'admin </a>
                         </div>
-                        <h3>blog title goes here</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
-                        <a href="#" className="btn"> learn more <span className="fas fa-chevron-right"></span> </a>
+                        <h3>Recrutement</h3>
+                        <p style={{fontSize: "15px"}}>Recrutement d'un Ingénieur Consultant dans le domaine de Gestion des Aspects Environnentaux.</p>
+                        <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
 
                 <div className="box">
                     <div className="image">
-                        <img src={blog3} alt="" />
+                        <img src='https://mutuelledelasante.com/wp-content/uploads/2020/01/handicap_2-b50e05d5-800x480.jpg' alt="" />
                     </div>
                     <div className="content">
                         <div className="icon">
-                            <a href="#"> <i className="fas fa-calendar"></i> 1st may, 2021 </a>
-                            <a href="#"> <i className="fas fa-user"></i> by admin </a>
+                            <a href="#"> <i className="fas fa-calendar"></i> 10 mai 2021</a>
+                            <a href="#"> <i className="fas fa-user"></i> par l'admin </a>
                         </div>
-                        <h3>blog title goes here</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, eius.</p>
-                        <a href="#" className="btn"> learn more <span className="fas fa-chevron-right"></span> </a>
+                        <h3>Les Aides Financières 2022</h3>
+                        <p style={{fontSize: "15px"}}>La Mutuelle fournit des aides financières aux adhérents sur la base de justificatifs.</p>
+                        <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
 

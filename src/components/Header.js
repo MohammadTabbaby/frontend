@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-//import script from '../script'
+
 
 
 function Header() {
@@ -9,22 +9,18 @@ function Header() {
         <div>
             <header className="header">
 
-                <a href="#" className="logo"> <i className="fas fa-heartbeat"></i> Parc Informatique Hôpital Universitaire Taher Sfar </a>
+                <a href="#" className="logo"> <i className="fas fa-heartbeat"></i> EPS Hôpital Tahar Sfar Mahdia </a>
                 <nav className="navbar">
-                    <a href="#home">home</a>
-                    <a href="#services">services</a>
-                    <a href="#about">about</a>
-                    <a href="#doctors">doctors</a>
-                    <a href="#book">book</a>
-                    <a href="#review">review</a>
-                    <a href="#blogs">blogs</a>
+                    <a href="#home">Accueil</a>
+                    <a href="#facility">Nos Applications</a>
+                    <a href="#doctors">Services</a>
+                    <a href="#blogs">Actualités</a>
+                    <a href="#about">à Propos</a>
                 </nav>
 
                 <div id="menu-btn" className="fas fa-bars"></div>
-
-                {/*<script src={script}></script>*/}
-
             </header>
+
         </div>
 
     )

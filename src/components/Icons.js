@@ -6,26 +6,26 @@ function Icons() {
 
             <div className="icons">
                 <i className="fas fa-user-md"></i>
-                <h3>140+</h3>
-                <p>doctors at work</p>
+                <h3>90+</h3>
+                <p>Médecins au travail</p>
             </div>
 
             <div className="icons">
                 <i className="fas fa-users"></i>
-                <h3>1040+</h3>
-                <p>satisfied patients</p>
+                <h3>3021+</h3>
+                <p>patients satisfaits</p>
             </div>
 
             <div className="icons">
                 <i className="fas fa-procedures"></i>
-                <h3>500+</h3>
-                <p>bed facility</p>
+                <h3>350+</h3>
+                <p>lits</p>
             </div>
 
             <div className="icons">
                 <i className="fas fa-hospital"></i>
-                <h3>80+</h3>
-                <p>available hospitals</p>
+                <h3>29+</h3>
+                <p>Services</p>
             </div>
 
         </section></div>

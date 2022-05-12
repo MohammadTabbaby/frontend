@@ -13,42 +13,54 @@ function Facility() {
             <div className="container">
 
 
-                <h1 className="heading"> <span>our</span> facilities </h1>
+                <h1 className="heading"> <span>Nos</span> Applications </h1>
                 <div className="box-container">
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="our team">
-                            <img src={facility3} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="our lab">
-                            <img src={facility1} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="emergency rooms">
-                            <img src={facility3} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="expert doctors">
-                            <img src={facility2} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="expert doctors">
-                            <img src={facility1} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 
                     <div className="box" data-aos="zoom-in">
                         <a href="#" title="emergency rooms">
-                            <img src={facility2} alt="" />
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
+                        </a>
+                    </div>
+
+                    <div className="box" data-aos="zoom-in">
+                        <a href="#" title="emergency rooms">
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
+                        </a>
+                    </div>
+
+                    <div className="box" data-aos="zoom-in">
+                        <a href="#" title="emergency rooms">
+                            <img src='https://www.wandesk.fr/wp-content/uploads/2019/11/gestion-de-parc-informatique.png' alt="" />
                         </a>
                     </div>
 

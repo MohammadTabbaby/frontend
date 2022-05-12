@@ -6,6 +6,9 @@ import Facility from './components/Facility'
 import Booking from './components/Book'
 import About from './components/About'
 import Footer from './components/Footer'
+import Blogs from './components/Blogs'
+import Reviews from './components/Reviews'
+import Doctors from './components/Doctors'
 import './App.css'
 
 
@@ -13,12 +16,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
       <Home />
       <Icons />
-      <Services />
       <Facility />
       <Booking />
+      <Doctors />
+      <Blogs />
       <About />
       <Footer />
     </div>
