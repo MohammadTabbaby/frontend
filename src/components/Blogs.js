@@ -14,15 +14,15 @@ function Blogs() {
 
                 <div className="box">
                     <div className="image">
-                    <img src='https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/279885959_372313594939109_7552198683786925442_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8bfeb9&_nc_ohc=59X6hSPKgyEAX_BV_GE&_nc_ht=scontent.ftun15-1.fna&oh=00_AT8vnvaqqWeTb-vIzFuBDN_4BquGpuklz6p_tWuyUIt5_g&oe=6282DC44' alt="" />
+                        <img src='https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/279885959_372313594939109_7552198683786925442_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8bfeb9&_nc_ohc=59X6hSPKgyEAX_BV_GE&_nc_ht=scontent.ftun15-1.fna&oh=00_AT8vnvaqqWeTb-vIzFuBDN_4BquGpuklz6p_tWuyUIt5_g&oe=6282DC44' alt="" />
                     </div>
                     <div className="content">
-                        <div className="icon">  
+                        <div className="icon">
                             <a href="#"> <i className="fas fa-calendar"></i> 25 avril, 2021 </a>
                             <a href="#"> <i className="fas fa-user"></i> par l'admin</a>
                         </div>
                         <h3>Ministère de la santé </h3>
-                        <p style={{fontSize: "15px"}}> Une séance de travail consacrée au suivi du projet d'industrie du vaccin en Tunisie</p>
+                        <p style={{ fontSize: "15px" }}> Une séance de travail consacrée au suivi du projet d'industrie du vaccin en Tunisie</p>
                         <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ function Blogs() {
                             <a href="#"> <i className="fas fa-user"></i> par l'admin </a>
                         </div>
                         <h3>Recrutement</h3>
-                        <p style={{fontSize: "15px"}}>Recrutement d'un Ingénieur Consultant dans le domaine de Gestion des Aspects Environnentaux.</p>
+                        <p style={{ fontSize: "15px" }}>Recrutement d'un Ingénieur Consultant dans le domaine de Gestion des Aspects Environnentaux.</p>
                         <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
@@ -51,8 +51,8 @@ function Blogs() {
                             <a href="#"> <i className="fas fa-calendar"></i> 10 mai 2021</a>
                             <a href="#"> <i className="fas fa-user"></i> par l'admin </a>
                         </div>
-                        <h3>Les Aides Financières 2022</h3>
-                        <p style={{fontSize: "15px"}}>La Mutuelle fournit des aides financières aux adhérents sur la base de justificatifs.</p>
+                        <h3>Les Aides Financières</h3>
+                        <p style={{ fontSize: "15px" }}>La Mutuelle fournit des aides financières aux adhérents sur la base de justificatifs.</p>
                         <a href="#" className="btn"> Voir Plus <span className="fas fa-chevron-right"></span> </a>
                     </div>
                 </div>
