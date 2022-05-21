@@ -1,34 +1,37 @@
-import React from 'react';
+import React, { Component } from 'react'
+import axios from 'axios';
+
 //import './about.css';
 import about from '../../src/assets/about.svg';
 
 
-function About() {
-    return (
-        <section className="about" id="about">
+export default class About extends Component {
+    state = {
+        results: []
+    }
 
-            <h1 className="heading"> <span>À PROPOS DE</span> NOUS </h1>
+    componentDidMount() {
+        axios.get(`http://127.0.0.1:8000/api/AboutUs`)
+            .then(res => {
+                const results = res.data;
+                this.setState({ results });
+            })
+    }
 
-            <div className="row">
-
-                <div className="image">
-                    <img src='http://www.hopital-taharsfarmahdia.tn/themes/jtherczeg-corlate/assets/images/slider/bg3.jpg' alt="" />
+    render() {
+        return (
+            <section className="about" id="about">
+                <h1 className="heading"> <span>À PROPOS DE</span> NOUS </h1>
+                <div className="row">
+                    <div className="image">
+                        <img src={this.state.results.image} alt="" />
+                    </div>
+                    <div className="content">
+                        <h3>{this.state.results.titre}</h3>
+                        <p>{this.state.results.description}</p>
+                    </div>
                 </div>
-
-                <div className="content">
-                    <h3>nous prenons soin de votre vie saine</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in
-                        assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.
-                    </p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates
-                        voluptatibus a nihil temporibus deserunt vel?</p>
-                </div>
-
-            </div>
-
-        </section>
-
-    )
+            </section>
+        )
+    }
 }
-
-export default About

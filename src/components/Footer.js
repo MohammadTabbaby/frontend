@@ -10,10 +10,10 @@ function Footer() {
 
                 <div className="box">
                     <h3>Liens utiles</h3>
-                    <a href="https://mutuelledelasante.com" target="_blank" rel="noopener noreferrer"> <i class="fas fa-globe"></i> Mutuelle de la sante </a>
-                    <a href="http://www.santetunisie.rns.tn/fr/" target="_blank" rel="noopener noreferrer"> <i class="fas fa-globe"></i>  Ministère de la santé </a>
-                    <a href="https://www.facebook.com/EPS-Hôpital-Tahar-Sfar-Mahdia-1723481731239777" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></i> EPS Hôpital Tahar Sfar Mahdia </a>
-                    <a href="https://www.facebook.com/OMSTunisie/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></i> Organisation mondiale de la Santé Tunisie</a>
+                    <a href="https://mutuelledelasante.com" target="_blank" rel="noopener noreferrer"> <i className="fas fa-globe"></i> Mutuelle de la sante </a>
+                    <a href="http://www.santetunisie.rns.tn/fr/" target="_blank" rel="noopener noreferrer"> <i className="fas fa-globe"></i>  Ministère de la santé </a>
+                    <a href="https://www.facebook.com/EPS-Hôpital-Tahar-Sfar-Mahdia-1723481731239777" target="_blank" rel="noopener noreferrer"> <i className="fab fa-facebook-f"></i> EPS Hôpital Tahar Sfar Mahdia </a>
+                    <a href="https://www.facebook.com/OMSTunisie/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-facebook-f"></i> Organisation mondiale de la Santé Tunisie</a>
                 </div>
 
                 <div className="box">
