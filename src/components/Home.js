@@ -1,8 +1,14 @@
 import React from 'react';
-import axios from 'axios';
 
 import './home.css'
+import SimpleImageSlider from "react-simple-image-slider";
+
 import home from '../../src/assets/home.svg';
+const images = [
+    { url: "http://www.hopital-taharsfarmahdia.tn/themes/jtherczeg-corlate/assets/images/slider/bg1.jpg" },
+    { url: "http://www.hopital-taharsfarmahdia.tn/themes/jtherczeg-corlate/assets/images/slider/bg2.jpg" },
+    { url: "http://www.hopital-taharsfarmahdia.tn/themes/jtherczeg-corlate/assets/images/slider/bg3.jpg" },
+];
 
 export default class Home extends React.Component {
 
@@ -12,8 +18,15 @@ export default class Home extends React.Component {
                 <section className="home" id="home">
 
                     <div className="image">
-                        <img src='http://www.hopital-taharsfarmahdia.tn/themes/jtherczeg-corlate/assets/images/slider/bg2.jpg' alt="" />
+                        <SimpleImageSlider
+                            width={600}
+                            height={400}
+                            images={images}
+                            showBullets={true}
+                            showNavs={true}
+                        />
                     </div>
+                    <br></br>
 
                     <div className="content">
                         <h3>Restez en sécurité, restez en bonne santé</h3>
